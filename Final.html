@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muyembe Health Centre IV</title>
+    <link rel="stylesheet" href="Final.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="Photos/pexels-fr3nks-305567.jpg" alt="Health Centre Logo" class="logo">
+            <h1>Muyembe Health Centre IV</h1>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact Info</a></li>
+                <li><a href="#register">Patient Registration</a></li>
+                <li><a href="#login">Staff Login</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="page active">
+            <div class="hero">
+                <img src="Photos/pexels-jmeyer1220-668300.jpg" alt="Health Centre Building" class="hero-img">
+                <div class="hero-text">
+                    <h2>Quality Healthcare Services</h2>
+                    <p>Serving the community of Bulambuli with compassion and excellence</p>
+                </div>
+            </div>
+            <div class="services">
+                <h3>Our Services</h3>
+                <div class="service-cards">
+                    <div class="card">
+                        <img src="Photos/pexels-karolina-grabowska-4386467.jpg" alt="Outpatient Services">
+                        <h4>Outpatient Services</h4>
+                        <p>Comprehensive care for all outpatients</p>
+                    </div>
+                    <div class="card">
+                        <img src="Photos/pexels-rdne-6129045.jpg" alt="Maternity Services">
+                        <h4>Maternity Services</h4>
+                        <p>Safe delivery and postnatal care</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about" class="page">
+            <h2>About Muyembe Health Centre IV</h2>
+            <div class="about-content">
+                <img src="Photos/pexels-yusra_gonul-1653669305-32128733.jpg" alt="Our Staff" class="about-img">
+                <div class="about-text">
+                    <p>Muyembe Health Centre IV is a government health facility located in Bulambuli District, Eastern
+                        Uganda. We provide quality healthcare services to the community with a focus on maternal and
+                        child health, infectious diseases, and general medical care.</p>
+                    <p>Established in 2005, we have grown to become one of the leading health centres in the region,
+                        serving over 50,000 patients annually.</p>
+                </div>
+            </div>
+            <div class="mission-vision">
+                <img src="Photos/pexels-rdne-6129045.jpg" alt="Health Education" class="mission-img">
+                <div class="mission-text">
+                    <h3>Our Mission</h3>
+                    <p>To provide accessible, affordable and quality healthcare services to all people in Bulambuli and
+                        neighboring communities.</p>
+                    <h3>Our Vision</h3>
+                    <p>A healthy community with improved quality of life through preventive, promotive and curative
+                        healthcare services.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Info Section -->
+        <section id="contact" class="page">
+            <h2>Contact Information</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <img src="Photos/pexels-yusra_gonul-1653669305-32128733.jpg" alt="Location Map" class="contact-img">
+                    <h3>Location</h3>
+                    <p>Muyembe Town, Bulambuli District</p>
+                    <p>Eastern Uganda</p>
+
+                    <h3>Contact Details</h3>
+                    <p>Phone: +256 772 123456</p>
+                    <p>Email: info@muyembehealth.go.ug</p>
+                    <p>Emergency: +256 752 789012</p>
+                </div>
+                <div class="opening-hours">
+                    <img src="Photos/pexels-rdne-6129045.jpg" alt="Reception Area" class="hours-img">
+                    <h3>Opening Hours</h3>
+                    <p>Monday - Friday: 8:00 AM - 5:00 PM</p>
+                    <p>Saturday: 9:00 AM - 2:00 PM</p>
+                    <p>Emergency Services: 24/7</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Patient Registration Section -->
+        <section id="register" class="page">
+            <h2>Patient Registration Form</h2>
+            <div class="form-container">
+                <img src="Photos/pexels-pixabay-236380.jpg" alt="Patient Care" class="form-img">
+                <form id="registrationForm">
+                    <div class="form-group">
+                        <label for="fullName">Full Name:</label>
+                        <input type="text" id="fullName" name="fullName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="dob">Date of Birth:</label>
+                        <input type="date" id="dob" name="dob" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="gender">Gender:</label>
+                        <select id="gender" name="gender" required>
+                            <option value="">Select Gender</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="address">Address:</label>
+                        <input type="text" id="address" name="address" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="nextOfKin">Next of Kin:</label>
+                        <input type="text" id="nextOfKin" name="nextOfKin" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="kinContact">Kin's Contact:</label>
+                        <input type="tel" id="kinContact" name="kinContact" required>
+                    </div>
+                    <button type="submit" class="submit-btn">Register</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Staff Login Section -->
+        <section id="login" class="page">
+            <h2>Staff Login</h2>
+            <div class="login-container">
+                <img src="Photos/pexels-jmeyer1220-668300.jpg" alt="Medical Team" class="login-img">
+                <form id="loginForm">
+                    <div class="form-group">
+                        <label for="username">Username:</label>
+                        <input type="text" id="username" name="username" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    <button type="submit" class="login-btn">Login</button>
+                </form>
+                <img src="Photos/pexels-jmeyer1220-668300.jpg" alt="Doctor Consulting" class="login-img2">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2023 Muyembe Health Centre IV, Bulambuli. All rights reserved.</p>
+            <p>Ministry of Health - Uganda</p>
+        </div>
+    </footer>
+
+    <script src="Final.js"></script>
+    <script>
+        // Simple SPA navigation for sections
+        document.addEventListener('DOMContentLoaded', function () {
+            const navLinks = document.querySelectorAll('.nav-links a');
+            const pages = document.querySelectorAll('.page');
+
+            navLinks.forEach(link => {
+                link.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href').substring(1);
+
+                    pages.forEach(page => {
+                        if (page.id === targetId) {
+                            page.classList.add('active');
+                        } else {
+                            page.classList.remove('active');
+                        }
+                    });
+
+                    // Optionally, update the URL hash
+                    window.location.hash = targetId;
+                });
+            });
+
+            // On page load, show the section matching the hash
+            const hash = window.location.hash.substring(1);
+            if (hash) {
+                pages.forEach(page => {
+                    if (page.id === hash) {
+                        page.classList.add('active');
+                    } else {
+                        page.classList.remove('active');
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+
+</html>
